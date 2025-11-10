@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAwesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-pD0mP3a9WtR0y+8A+O3qQYtVfB3uCjZ8m+M0cq7N+LExZ8nzyzFGlZQ2Iz2jZJhUR0MZ1IB6MCf+3D0GzFqC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Theme toggle icon -->
+    <div id="theme-toggle">
+      <i class="fa-solid fa-sun" style="color: yellow; font-size: 30px"></i>
+    </div>
+
+    <div class="container">
+      <h1>To-Do List</h1>
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new task" />
+        <button type="submit">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
